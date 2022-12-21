@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hive Demo',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.purple,
       ),
       home: const HomePage(),
     );
@@ -189,7 +189,7 @@ class _HomePageState extends State<HomePage> {
               itemBuilder: (_, index) {
                 final currentItem = _items[index];
                 return Card(
-                  color: Colors.green,
+                  color: Colors.purple,
                   margin: const EdgeInsets.all(10),
                   elevation: 3,
                   child: ListTile(
